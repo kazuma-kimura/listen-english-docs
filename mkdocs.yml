@@ -1,0 +1,52 @@
+site_name: 英文法
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+  favicon: favicon.ico
+  icon:
+    logo: material/library
+  palette:
+    primary: indigo
+    accent: indigo
+
+plugins:
+  - search:
+      lang: ja
+
+extra_css:
+  - assets/stylesheets/custom.css
+
+extra_javascript:
+  - assets/javascripts/custom.js
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - 索引: index.md
+  - 語順の基本:
+    - Introduction: word-order/introduction.md
+  - 動詞:
+    - Introduction: varb/introduction.md
+    - 動詞1: varb/1.md
+    - 動詞2: varb/2.md
+  - 時制:
+    - Introduction: tense/introduction.md
+    - 時制1: tense/1.md
+    - 時制2: tense/2.md
+    - 時制3: tense/3.md
+    - 時制4: tense/4.md
+    - 時制5: tense/5.md
+  - 助動詞:
+    - Introduction: auxiliary-varb/introduction.md
+    - 助動詞1: auxiliary-varb/1.md
+    - 助動詞2: auxiliary-varb/2.md
+    - 助動詞3: auxiliary-varb/3.md
