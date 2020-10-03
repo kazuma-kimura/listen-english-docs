@@ -6,7 +6,8 @@ on:
       - master
 
 env:
-  NODE_VERSION: 12.15.x
+  # NODE_VERSION: 12.15.x
+  NODE_VERSION: 12.15.0-r1
   MARKDOWN_LINT_VERSION: 0.24.0
 
 jobs:
@@ -16,10 +17,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Setup Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ env.NODE_VERSION }}
+      # Errorがでて動かないので、apk addでインストールする。
+      # There was an error when attempting to execute the process '/__t/node/12.15.0/x64/bin/node'.
+      # - name: Setup Node
+      #   uses: actions/setup-node@v1
+      #   with:
+      #     node-version: ${{ env.NODE_VERSION }}
+
+      - name: Setup Nodejs npm
+        run: apk add --no-cache nodejs=${{ env.NODE_VERSION }} npm=${{ env.NODE_VERSION }}
 
       - name: Setup Markdown Lint
         run: npm install -g markdownlint-cli@${{ env.MARKDOWN_LINT_VERSION }}
