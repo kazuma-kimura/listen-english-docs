@@ -1,4 +1,4 @@
-site_name: 英文法
+site_name: 自分用の英文法まとめ
 
 theme:
   name: material
@@ -26,9 +26,14 @@ markdown_extensions:
   - footnotes
   - pymdownx.tabbed
   - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums: true
 
 nav:
   - 索引: index.md
