@@ -59,3 +59,17 @@ nav:
     - 助動詞1: auxiliary-varb/1.md
     - 助動詞2: auxiliary-varb/2.md
     - 助動詞3: auxiliary-varb/3.md
+  - 名詞と冠詞:
+    - Introduction: noun-article/introduction.md
+  - 形容詞:
+    - Introduction: adjective/introduction.md
+  - 代名詞:
+    - Introduction: pronoun/introduction.md
+  - 副詞:
+    - Introduction: adverb/introduction.md
+  - 不定詞:
+    - Introduction: infinitive/introduction.md
+  - 動名詞:
+    - Introduction: gerund/introduction.md
+  - 分詞:
+    - Introduction: participle/introduction.md
