@@ -42,9 +42,9 @@
 ## 前置詞を含む句の働い1：副詞句を作る
 
 !!! Example
-    1. My wife and I went **to** Ginza **for** dinner yesterday. ()
-    2. Bob is good **at** mathematics. ()
-    3. **To** my delight, I passed the entrance exam. ()
+    1. My wife and I went **to** Ginza **for** dinner yesterday. (妻と私は昨日、銀座へ夕食に行った)
+    2. Bob is good **at** mathematics. (ボブは数学が得意だ)
+    3. **To** my delight, I passed the entrance exam. (うれしいことに、私は入試に合格した)
     4. [x] mathematics: 数学
     5. [x] to A's delight: Aが 喜んだことには、 Aにとって うれしいことには
     6. [x] entrance exam: 入学試験

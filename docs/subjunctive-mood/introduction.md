@@ -3,8 +3,8 @@
 ## 仮定法とは
 
 !!! Example
-    1. If the weather **is** good tomorrow, we **will go** for a drive. ()
-    2. If the weather **were [was]** good, we **would go** for a drive. ()
+    1. If the weather **is** good tomorrow, we **will go** for a drive. (明日天気がよかったら、私たちはドライブに行く)
+    2. If the weather **were [was]** good, we **would go** for a drive. (天気がよければ、私たちはドライブに行くのだが)
     3. [x] go for a drive: ドライブに行く
 
 !!! Note

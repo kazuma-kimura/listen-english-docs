@@ -36,8 +36,8 @@
     3. **Why** did you do such a thing? (あなたはなぜそんなことをしたのですか)
     4. **How** did you come to know our company? (あなたは私たちの会社をどのようにして知りましたか)
     5. **How often** do you go to the movies? (あなたはどのくらいよく映画を見に行きますか)
-    6. come to do: 〜するようになる
-    7. go to the movies: 映画を見に行く
+    6. [x] come to do: 〜するようになる
+    7. [x] go to the movies: 映画を見に行く
 
 !!! Note
     ==疑問代名詞には、who 誰 what 何 which どれ whose 誰の物 の4つがある。==  
