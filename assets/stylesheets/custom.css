@@ -2,3 +2,25 @@
 /* .md-tabs {
   background-color: red
 } */
+
+/* ヘッダータブを改行するように */
+.md-tabs__list {
+  white-space: normal;
+}
+
+/* ヘッダータブの表示アニメーションが16個しかforが定義していないのでそれ以降のitemアニメーションを追加 */
+.md-tabs__item:nth-child(17) .md-tabs__link {
+  transition-delay: 320ms;
+}
+
+.md-tabs__item:nth-child(18) .md-tabs__link {
+  transition-delay: 340ms;
+}
+
+.md-tabs__item:nth-child(19) .md-tabs__link {
+  transition-delay: 360ms;
+}
+
+.md-tabs__item:nth-child(20) .md-tabs__link {
+  transition-delay: 380ms;
+}
