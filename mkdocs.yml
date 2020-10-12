@@ -1,11 +1,12 @@
-site_name: 自分用の英文法まとめ
+site_name: 英語学習のナレッジまとめ
+site_url: https://kazuma-kimura.github.io/listen-english-docs/
 
 theme:
   name: material
   custom_dir: src/overrides
   features:
     - navigation.tabs
-  favicon: favicon.ico
+  # favicon: favicon.ico
   icon:
     logo: material/library
   palette:
