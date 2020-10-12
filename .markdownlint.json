@@ -4,5 +4,6 @@
     "allowed_elements": [
       "font"
     ]
-  }
+  },
+  "no-duplicate-header": false
 }

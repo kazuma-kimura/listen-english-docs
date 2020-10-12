@@ -31,6 +31,7 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -87,3 +88,6 @@ nav:
     - Introduction: relatives/introduction.md
   - 前置詞:
     - Introduction: preposition/introduction.md
+  - 英作文:
+    - 中学生:
+      - 1年生レベル: english-composition/junior-high-school/1.md
