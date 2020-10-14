@@ -4,6 +4,7 @@ site_url: https://kazuma-kimura.github.io/listen-english-docs/
 theme:
   name: material
   custom_dir: src/overrides
+  language: ja
   features:
     - navigation.tabs
   # favicon: favicon.ico
@@ -92,3 +93,4 @@ nav:
   - 英作文:
     - 中学生:
       - 中学1年生レベルの英作文: english-composition/junior-high-school/1.md
+      - 中学2年生レベルの英作文: english-composition/junior-high-school/2.md
