@@ -7,9 +7,12 @@ theme:
   language: ja
   features:
     - navigation.tabs
+    # 同じようにやったけど機能せず。。 https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/
+    # - search.suggest
+    # - search.highlight
   # favicon: favicon.ico
   icon:
-    logo: material/library
+    logo: material/book-open-page-variant
   palette:
     primary: indigo
     accent: indigo
@@ -94,3 +97,4 @@ nav:
     - 中学生:
       - 中学1年生レベルの英作文: english-composition/junior-high-school/1.md
       - 中学2年生レベルの英作文: english-composition/junior-high-school/2.md
+      - 中学3年生レベルの英作文: english-composition/junior-high-school/3.md
