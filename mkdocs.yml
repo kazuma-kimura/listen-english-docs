@@ -37,6 +37,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.details
+  - pymdownx.critic
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -94,7 +95,7 @@ nav:
   - 前置詞:
     - Introduction: preposition/introduction.md
   - 英作文:
-    - 中学生:
-      - 中学1年生レベルの英作文: english-composition/junior-high-school/1.md
-      - 中学2年生レベルの英作文: english-composition/junior-high-school/2.md
-      - 中学3年生レベルの英作文: english-composition/junior-high-school/3.md
+    - 中学1年生レベルの英作文: english-composition/1.md
+    - 中学2年生レベルの英作文: english-composition/2.md
+    - 中学3年生レベルの英作文: english-composition/3.md
+    - 高校生レベルの英作文: english-composition/4.md
