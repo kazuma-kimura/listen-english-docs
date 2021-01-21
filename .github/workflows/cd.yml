@@ -7,7 +7,7 @@ on:
 
 env:
   # NODE_VERSION: 12.15.x
-  NODE_VERSION: 12.15.x
+  NODE_VERSION: 12.20.1-r0
   MARKDOWN_LINT_VERSION: 0.24.0
 
 jobs:
