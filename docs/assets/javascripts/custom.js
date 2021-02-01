@@ -2,8 +2,7 @@
 const header = document.querySelector('header');
 const footer = document.querySelector('footer');
 
-const isMobile = () => {
-  const userAgent = window.navigator.userAgent.toLowerCase();
+const isMobile = (userAgent) => {
   alert(userAgent);
   if (userAgent.indexOf('iphone') != -1) {
     alert('iPhoneをお使いですね');
@@ -21,9 +20,19 @@ const isMobile = () => {
   return true;
 }
 
+const addElement = (userAgent) => {
+  const element = document.createElement('div');
+  element.textContent = userAgent;
+  const target = document.querySelector('h1');
+  target.appendChild(element);
+}
+
 window.addEventListener('load', (event) => {
   console.log("loadされたよー");
-  if (isMobile()) {
+  const userAgent = window.navigator.userAgent.toLowerCase();
+  addElement(userAgent);
+
+  if (isMobile(userAgent)) {
     alert('mobileだよー。ヘッダー、フッターを消すよ。');
     header.style.display = 'none';
     footer.style.display = 'none';
