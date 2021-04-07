@@ -25,7 +25,8 @@ jobs:
       #     node-version: ${{ env.NODE_VERSION }}
 
       - name: Setup Nodejs npm
-        run: apk add --no-cache nodejs=${{ env.NODE_VERSION }} npm=${{ env.NODE_VERSION }}
+        # run: apk add --no-cache nodejs=${{ env.NODE_VERSION }} npm=${{ env.NODE_VERSION }}
+        run: apk add --no-cache nodejs npm
 
       - name: Setup Markdown Lint
         run: npm install -g markdownlint-cli@${{ env.MARKDOWN_LINT_VERSION }}
